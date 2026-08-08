@@ -11,7 +11,7 @@ public class program
         List<FlightAttendant> list = new List<FlightAttendant>();
         list.Add(f);
         Crew c = new Crew(p1,p2,list);
-        Aircrafts a = new Aircrafts("boing 1",1,c);
+        Aircrafts a = new Aircrafts("boing 1",6,c);
         Booking b = new Booking(a);
         List<Ticket> t=b.Book(4);
         foreach (Ticket z in t)
