@@ -1,11 +1,10 @@
 namespace AirlineReservationCheckSystem;
 
-public class FlightAttendant:CrewMembers
+public class FlightAttendant:CrewMembers,CheckIn
 {
     public string Name { get; }
     public int Age { get; }
     public int YearOfExperience { get; }
-    public string LicenceNo { get; }
 
     public FlightAttendant(string name, int age, int experience)
     {
@@ -23,7 +22,7 @@ public class FlightAttendant:CrewMembers
     }
 
     public void BoardingPriority()
-    {
+    { 
         Console.WriteLine("high");
     }
 }

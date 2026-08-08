@@ -5,7 +5,6 @@ public class Pilot:CrewMembers,CheckIn
     public string Name { get; }
     public int Age { get; }
     public int YearOfExperience { get;}
-    public String LicenceNo { get; }
 
     public Pilot(string name, int age, int experience)
     {

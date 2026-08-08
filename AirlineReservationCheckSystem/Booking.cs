@@ -2,7 +2,7 @@ namespace AirlineReservationCheckSystem;
 
 public class Booking
 {
-    public static int BookedSeats { get; set;}
+    public  int BookedSeats { get; set;}
     public Aircrafts a;
     public Booking(Aircrafts a)
     {
