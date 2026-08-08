@@ -9,9 +9,9 @@ public class Crew
 
     public Crew(Pilot p1, Pilot p2, List<FlightAttendant> list)
     {
-        this.pilot1 = p1;
+        this.pilot1 = p1;h
         this.pilot2 = p2;
-        list = new List<FlightAttendant>();
+        this.FlightAttendants=list;
     }
     
 }
