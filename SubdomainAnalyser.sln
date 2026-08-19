@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubdomainAnalyser", "SubdomainAnalyser\SubdomainAnalyser.csproj", "{75DDDFDB-2615-40BC-99FE-64935E3550EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubDomainAnalyser2", "SubDomainAnalyser2\SubDomainAnalyser2.csproj", "{12C38349-944B-4B71-B331-FBF4C02954ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubDomainAnalyser.test", "SubDomainAnalyser.test \SubDomainAnalyser.test.csproj", "{1BD5C556-118E-4CF0-A23D-992E0780DAB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -9,8 +13,15 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{75DDDFDB-2615-40BC-99FE-64935E3550EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{75DDDFDB-2615-40BC-99FE-64935E3550EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75DDDFDB-2615-40BC-99FE-64935E3550EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75DDDFDB-2615-40BC-99FE-64935E3550EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C38349-944B-4B71-B331-FBF4C02954ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C38349-944B-4B71-B331-FBF4C02954ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C38349-944B-4B71-B331-FBF4C02954ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C38349-944B-4B71-B331-FBF4C02954ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD5C556-118E-4CF0-A23D-992E0780DAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD5C556-118E-4CF0-A23D-992E0780DAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD5C556-118E-4CF0-A23D-992E0780DAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD5C556-118E-4CF0-A23D-992E0780DAB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

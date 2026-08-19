@@ -1,9 +1,12 @@
 namespace SubdomainAnalyser;
 
-public class RepositoryDic:IRepository
+public class RepositoryDic<TKey,TEntity>:IRepository<TKey,TEntity> where TEntity : class
 {
-    public void Add()
+
+    public Dictionary<TKey, TEntity> map = new Dictionary<TKey, TEntity>();
+    
+    public void Add(TKey key,TEntity entity)
     {
-        throw new NotImplementedException();
+      if 
     }
 }
