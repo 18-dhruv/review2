@@ -1,0 +1,19 @@
+{
+  "connectionTypes": [
+    {
+      "type": "DOMESTIC",
+      "slabs": [
+        { "upTo": 100, "rate": 3 },
+        { "upTo": 300, "rate": 5 },
+        { "upTo": 999999, "rate": 7 }
+      ]
+    },
+    {
+      "type": "COMMERCIAL",
+      "slabs": [
+        { "upTo": 500, "rate": 8 },
+        { "upTo": 999999, "rate": 10 }
+      ]
+    }
+  ]
+}

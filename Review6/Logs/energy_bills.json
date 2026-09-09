@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "MeterId": "MTR1",
+    "Consumption": 150,
+    "Amount": 550
+  },
+  {
+    "Id": 2,
+    "MeterId": "MTR3",
+    "Consumption": 400,
+    "Amount": 3200
+  },
+  {
+    "Id": 3,
+    "MeterId": "MTR5",
+    "Consumption": 300,
+    "Amount": 2400
+  }
+]
